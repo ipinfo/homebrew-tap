@@ -1,10 +1,17 @@
-# Ipinfo Tap
+# IPinfo Homebrew Tap
 
 ## How do I install these formulae?
 
-`brew install ipinfo/tap/<formula>`
+```
+brew install ipinfo/tap/<formula>
+```
 
-Or `brew tap ipinfo/tap` and then `brew install <formula>`.
+Or install the tap first and then the individual formulae:
+
+```
+brew tap ipinfo/tap
+brew install <formula>
+```
 
 ## Documentation
 
