@@ -1,12 +1,9 @@
 class IpinfoCli < Formula
-  desc "The official CLI for the IPinfo IP Address API"
+  desc "Official CLI for the IPinfo IP Address API"
   homepage "https://ipinfo.io"
   url "https://github.com/ipinfo/cli/archive/ipinfo-1.1.1.tar.gz"
   sha256 "4fd12fa7c8082529283b308685719f26b96def081a0f70fbdd647f40d3c8fcc7"
   license "Apache-2.0"
-
-  bottle do
-  end
 
   depends_on "go" => :build
 
