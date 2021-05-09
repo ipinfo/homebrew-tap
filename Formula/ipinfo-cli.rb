@@ -11,7 +11,7 @@ class IpinfoCli < Formula
     because: "homebrew/core/ipinfo conflicts with the binary name provided by this formula"
 
   def install
-    system "ipinfo/build.sh"
+    system "./ipinfo/build.sh"
     bin.install "build/ipinfo"
   end
 
