@@ -13,6 +13,13 @@ brew tap ipinfo/tap
 brew install <formula>
 ```
 
+## What formulae are available?
+
+```
+brew install ipinfo/tap/ipinfo-cli
+brew install ipinfo/tap/grepip
+```
+
 ## Documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
