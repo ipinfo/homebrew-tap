@@ -13,6 +13,7 @@ class Grepip < Formula
   end
 
   test do
-    assert_equal "1.0.1\n", `#{bin}/grepip --version`
+    assert_equal version.to_s, shell_output("#{bin}/grepip --version").chomp
+    assert_equal "1.1.1.1\n", `echo "asdf 1.1.1.1 asdf" | #{bin}/grepip -o`
   end
 end
