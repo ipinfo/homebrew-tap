@@ -1,4 +1,4 @@
 {
-  "ipinfo-cli": "homebrew/core"
+  "ipinfo-cli": "homebrew/core",
   "grepip": "homebrew/core"
 }
