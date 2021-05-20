@@ -16,8 +16,9 @@ brew install <formula>
 ## What formulae are available?
 
 ```
-brew install ipinfo/tap/ipinfo-cli
-brew install ipinfo/tap/grepip
+# these were migrated off of this tap and into `homebrew/core`, the official tap.
+brew install ipinfo-cli
+brew install grepip
 ```
 
 ## Documentation
